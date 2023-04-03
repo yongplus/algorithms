@@ -29,6 +29,6 @@ func bubbleSort(nums []int) []int {
 }
 
 func main() {
-	nums := []int{6, 4, 6, 1, 2, 3}
+	nums := []int{3, 1, 4, 1, 5, 9, 2, 6, 5}
 	log.Println(bubbleSort(nums))
 }
