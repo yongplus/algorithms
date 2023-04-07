@@ -2,6 +2,7 @@ package main
 
 import "log"
 
+//时间复杂度O(n^2),空间复杂度O(1), 不稳定
 func selectionSort(nums []int) []int {
 
 	for i := 0; i < len(nums)-1; i++ {

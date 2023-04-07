@@ -9,7 +9,6 @@ import "log"
 第二，归并排序的时间复杂度是多少？
 不管是最好情况、最坏情况，还是平均情况，时间复杂度都是 O(nlogn)
 
-
 空间复杂度是 O(n)。
 */
 func mergeSort(nums []int, p, r int) {

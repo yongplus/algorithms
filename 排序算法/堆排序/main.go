@@ -4,6 +4,10 @@ import (
 	"log"
 )
 
+/**
+O(nlogn)，所以，堆排序整体的时间复杂度是 O(nlogn)
+堆排序不是稳定的排序算法
+*/
 func buildHeap(a []int, n int) {
 	for i := n / 2; i >= 1; i-- {
 		heapify(a, n, i)
