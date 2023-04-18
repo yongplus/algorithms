@@ -16,6 +16,7 @@ func mergeSort(nums []int, p, r int) {
 		return
 	}
 	q := (p + r) / 2
+	log.Println(p, q+1, r)
 	mergeSort(nums, p, q)
 	mergeSort(nums, q+1, r)
 	merge(nums, p, q+1, r)
